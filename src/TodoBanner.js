@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export class TodoBanner extends Component {
+export default class TodoBanner extends Component {
   render() {
     return (
       <h4 className="bg-primary text-white text-center p-2">
