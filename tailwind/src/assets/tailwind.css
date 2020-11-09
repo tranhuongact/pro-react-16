@@ -1,0 +1,13 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+.demo {
+  @apply bg-gray-100 mx-auto max-w-sm shadow-lg rounded-lg overflow-hidden mt-5;
+}
+
+.wrap-number {
+    @apply text-gray-700 text-center bg-gray-400 px-4 py-2 m-2;
+}
+
+@import "tailwindcss/utilities";
